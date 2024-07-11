@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note Book</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Note Book</h1>
+    <div class="mainOne">
+      <div class="one">
+        <p>Search Notes:</p>
+        <input type="text" id="searchInput" />
+        <button onclick="searchNotes()">Search</button>
+      </div>
+      <div class="two">
+        <p>Total Notes: <span id="totalNotes">0</span></p>
+        <p>Showing: <span id="showingNotes">0</span></p>
+      </div>
+    </div>
+
+    <div class="maintwo">
+      <p>Note Title:</p>
+      <input type="text" id="noteTitle" />
+      <p>Note Desc:</p>
+      <input type="text" id="noteDesc" style="height: 100px" />
+      <button onclick="addNote()">Add to Book</button>
+    </div>
+
+    <div class="notes-list" id="notesList"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

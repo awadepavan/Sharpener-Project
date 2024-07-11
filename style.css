@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.mainOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.maintwo {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 10px;
+}
+
+.notes-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.note-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  width: 300px;
+}
+
+.note-item p {
+  margin: 5px 0;
+}
+
+.note-item button {
+  margin: 5px;
+}
